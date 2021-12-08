@@ -1,55 +1,77 @@
+/* For all html page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body Background-color */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Header Style */
+header {
+    /* Space between header and border */
     padding: 20px;
+    /* Font-Family */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Background-Color for the header */
     background-color: #2a607c;
+    /* Text color */
     color: #ffffff;
 }
 
-.header h1 {
+/* Style for h1 element in the header */
+header h1 {
+    /* To display elements as blocks next to each other for h1*/
     display: inline-block;
+    /* Font-size of h1*/
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Style for elements having seo class and are inside the h1 present in the header */
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Style for div tags in the header */
+header div {
+    /* Applies space on top of the div, between div and border */
     padding-top: 15px;
+    /*  Applies margin on the right between div and neighboor element*/
     margin-right: 20px;
+    /* Fixes Div to the right */
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header div ul {
+/* Unordered list style */
+header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* List items of the unordered list style */
+header div ul li {
+    /* Next to each other */
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Link Style */
 a {
     color: #ffffff;
+    /* Links have no decoration like underline */
     text-decoration: none;
 }
 
+/* Paragraph Style */
 p {
     font-size: 16px;
 }
 
+/* Sets the style for the big div that includes all the sections*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +81,47 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Main Section Style */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
+/* All sections in the main section style*/
+.AllSections  {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Images in the main section */
+.AllSections  img {
+    max-height: 200px;
+}
+
+/* h2 in main section */
+.AllSections h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Fix to left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Fix to right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Right div style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,109 +132,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* Style for all sections on the right */
+.SideSection {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Style for all h3 tags in the right secion */
+.SideSection h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Style for all images in the right section */
+.SideSection img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer style */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +157,7 @@ p {
     text-align: center;
 }
 
+/* Footer h1 font-size */
 .footer h2 {
     font-size: 20px;
 }

@@ -36,7 +36,7 @@ header h1 .seo {
 }
 
 /* Style for div tags in the header */
-header div {
+header nav {
     /* Applies space on top of the div, between div and border */
     padding-top: 15px;
     /*  Applies margin on the right between div and neighboor element*/
@@ -48,12 +48,12 @@ header div {
 }
 
 /* Unordered list style */
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
 /* List items of the unordered list style */
-header div ul li {
+header nav ul li {
     /* Next to each other */
     display: inline-block;
     margin-left: 25px;
@@ -82,7 +82,7 @@ p {
 }
 
 /* Main Section Style */
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -122,7 +122,7 @@ p {
 }
 
 /* Right div style */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -150,7 +150,7 @@ p {
 }
 
 /* footer style */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -158,6 +158,6 @@ p {
 }
 
 /* Footer h1 font-size */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }

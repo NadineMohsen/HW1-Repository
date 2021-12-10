@@ -34,4 +34,4 @@ https://nadinemohsen.github.io/HW1-Repository/
 
 
 ## Screenshot
- ![alt text](https://github.com/NadineMohsen/HW1-Repository/Images/Screeshot-webpage.png "Screenshot")
+ ![Screenshot](Images/Screenshot-webpage.png)

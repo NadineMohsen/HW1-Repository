@@ -34,4 +34,4 @@ https://nadinemohsen.github.io/HW1-Repository/
 
 
 ## Screenshot
- ![Screenshot](Images/Screenshot-webpage.png)
+ ![Screenshot](assets/Images/Screenshot-webpage.png)
